@@ -36,4 +36,12 @@ public class SolutionTest {
         String actual = solution.isPalindrome(input);
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void isPalindromeTest4() {
+        String input = "aaabbbcccddd";
+        String expected = "NO";
+        String actual = solution.isPalindrome(input);
+        Assert.assertEquals(expected, actual);
+    }
 }
