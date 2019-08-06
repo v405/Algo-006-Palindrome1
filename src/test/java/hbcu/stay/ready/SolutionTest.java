@@ -29,4 +29,11 @@ public class SolutionTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void isPalindromeTest3(){
+        String input = "cdcdcdcdeeeef";
+        String expected = "YES";
+        String actual = solution.isPalindrome(input);
+        Assert.assertEquals(expected, actual);
+    }
 }
